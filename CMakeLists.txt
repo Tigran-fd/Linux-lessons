@@ -3,4 +3,4 @@ project(Linux_lessons)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Linux_lessons main.cpp)
+add_subdirectory(produces_consumer)
