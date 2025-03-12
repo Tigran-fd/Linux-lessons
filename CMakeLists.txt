@@ -9,4 +9,6 @@ add_subdirectory(produces_consumer)
 
 add_subdirectory(homework_2)
 
-add_subdirectory(sigactions)
+add_subdirectory(sigaction)
+
+add_subdirectory(homework_3)
