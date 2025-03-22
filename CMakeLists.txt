@@ -3,12 +3,12 @@ project(Linux_lessons)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_subdirectory(homework_1)
+add_subdirectory(Homework_1)
 
-add_subdirectory(produces_consumer)
+add_subdirectory(Producer-consumer)
 
-add_subdirectory(homework_2)
+add_subdirectory(Homework_2)
 
-add_subdirectory(sigaction)
+add_subdirectory(Sigaction)
 
-add_subdirectory(homework_3)
+add_subdirectory(Homework_3)
