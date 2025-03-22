@@ -12,3 +12,5 @@ add_subdirectory(Homework_2)
 add_subdirectory(Sigaction)
 
 add_subdirectory(Homework_3)
+
+add_subdirectory(Pipe-FIFO)
