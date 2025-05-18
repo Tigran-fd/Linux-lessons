@@ -18,3 +18,5 @@ add_subdirectory(Pipe-FIFO)
 add_subdirectory(Homework_4)
 
 add_subdirectory(udp)
+
+add_subdirectory(Tic-Tac-Toe)
