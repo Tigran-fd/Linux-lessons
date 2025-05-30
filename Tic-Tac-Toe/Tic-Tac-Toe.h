@@ -4,7 +4,6 @@
 #define SHM_NAME "game_memory"
 #define BOARD_SIZE 3
 
-
 typedef struct {
     char board[BOARD_SIZE][BOARD_SIZE]; // Game board: 'X', 'O', or ''
     int current_turn; // 1 for player1, 2 for player2
@@ -30,4 +29,5 @@ void print_result(const SharedGame* game);
 void cleanup(SharedGame* game,int player,int shm_fd);
 
 void play_game(const char* role);
+
 #endif //TIC_TAC_TOE_H

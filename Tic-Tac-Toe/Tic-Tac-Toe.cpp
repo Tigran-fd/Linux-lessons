@@ -23,7 +23,7 @@ void draw_board(const SharedGame *game)
         }
         std::cout << std::endl;
         if (i < BOARD_SIZE - 1)
-            std::cout << "--+---+--"<< std::endl;
+            std::cout << "---------"<< std::endl;
     }
     std::cout << std::endl;
 }
@@ -91,7 +91,6 @@ void cleanup(SharedGame* game,int player,int shm_fd) {
     if (player == 1) {
         pthread_mutex_destroy(&game->mutex);
         pthread_cond_destroy(&game->cond);
-        munmap(game, sizeof(SharedGame));
         shm_unlink(SHM_NAME);
     }
     munmap(game, sizeof(SharedGame));
