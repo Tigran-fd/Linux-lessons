@@ -20,3 +20,6 @@ add_subdirectory(Homework_4)
 add_subdirectory(udp)
 
 add_subdirectory(Homework_6)
+
+add_subdirectory(Tic-Tac-Toe)
+
